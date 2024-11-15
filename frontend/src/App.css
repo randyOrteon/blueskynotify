@@ -1,72 +1,65 @@
-/* Notifications container */
-.notifications-container {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
+.app {
   font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-/* Header styling */
-.notifications-container h1 {
-  font-size: 2rem;
-  color: #333;
+h1 {
   text-align: center;
-  margin-bottom: 20px;
+  color: #333;
 }
 
-/* Notification list */
-.notification-list {
-  list-style: none;
-  padding: 0;
+.user-notifications {
+  margin: 20px 0;
 }
 
-/* Individual notification */
+.user-notifications h2 {
+  color: #007bff;
+  font-size: 1.5em;
+}
+
 .notification-item {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification-author {
   display: flex;
   align-items: center;
-  padding: 10px;
-  margin-bottom: 15px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
 }
 
-/* Avatar image */
-.notification-item img {
-  width: 50px;
-  height: 50px;
+.notification-author .avatar {
   border-radius: 50%;
-  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-/* Notification content */
-.notification-content {
-  flex: 1;
+.notification-author div {
+  margin-left: 10px;
 }
 
-/* Author display name */
-.notification-content .author-name {
-  font-weight: bold;
+.notification-author strong {
   color: #333;
+  font-size: 1.1em;
 }
 
-/* Notification reason */
-.notification-content .reason {
-  font-size: 0.9rem;
-  color: #666;
+.notification-item p {
+  margin: 5px 0;
+  font-size: 1em;
 }
 
-/* Post content (if applicable) */
-.notification-content .post-content {
-  font-size: 0.8rem;
-  color: #444;
-  margin-top: 5px;
-  font-style: italic;
+.notification-item em {
+  font-size: 0.9em;
+  color: #555;
 }
 
-/* Error message */
-.error-message {
-  color: red;
-  font-size: 1rem;
-  text-align: center;
+span {
+  font-size: 0.8em;
+  color: #888;
+  display: block;
+  margin-top: 10px;
 }
