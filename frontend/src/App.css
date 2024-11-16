@@ -1,28 +1,59 @@
-.app {
+/* General styles */
+body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
   color: #333;
+  margin-bottom: 20px;
 }
 
+/* Loading and error styles */
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+/* User notifications */
 .user-notifications {
-  margin: 20px 0;
+  margin-bottom: 30px;
 }
 
 .user-notifications h2 {
-  color: #007bff;
-  font-size: 1.5em;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.notification-list {
+  list-style: none;
+  padding: 0;
 }
 
 .notification-item {
-  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
   padding: 15px;
-  border-radius: 8px;
   margin-bottom: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background: #f4f4f4;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .notification-author {
@@ -31,35 +62,35 @@ h1 {
   margin-bottom: 10px;
 }
 
-.notification-author .avatar {
-  border-radius: 50%;
+.avatar {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
   margin-right: 10px;
 }
 
-.notification-author div {
-  margin-left: 10px;
-}
-
-.notification-author strong {
+.author-details strong {
+  font-size: 14px;
   color: #333;
-  font-size: 1.1em;
 }
 
-.notification-item p {
+.author-details p {
+  font-size: 12px;
+  color: #666;
+}
+
+.notification-content p {
   margin: 5px 0;
-  font-size: 1em;
+  color: #333;
+  font-size: 14px;
 }
 
-.notification-item em {
-  font-size: 0.9em;
-  color: #555;
-}
-
-span {
-  font-size: 0.8em;
+.notification-reason,
+.notification-date {
+  font-size: 12px;
   color: #888;
-  display: block;
-  margin-top: 10px;
+}
+
+.notification-reason {
+  margin-right: 10px;
 }

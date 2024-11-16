@@ -80,10 +80,11 @@ async function getNewToken(username, password) {
     }
 }
 
+
 // Function to refresh the session token
 async function refreshToken(refreshJwt) {
     try {
-        const response = await axios.post(`${BLUESKY_API_BASE}/xrpc/com.atproto.server.refreshSession`, {}, {
+        const response = await axios.post(`${BLUESKY_API_BASE}/xrpc/com.atproto.server.refreshSession`, null, {
             headers: {
                 Authorization: `Bearer ${refreshJwt}`,
             },
@@ -98,6 +99,7 @@ async function refreshToken(refreshJwt) {
         throw new Error('Failed to refresh token');
     }
 }
+
 
 // Function to fetch notifications using the current session token
 async function fetchNotifications(accessJwt) {
