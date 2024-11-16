@@ -5,6 +5,7 @@ const App = () => {
     const [notificationsData, setNotificationsData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [seenNotifications, setSeenNotifications] = useState([]);
 
     // Fetch notifications from the backend
     useEffect(() => {
@@ -25,6 +26,15 @@ const App = () => {
         fetchNotifications();
     }, []);
 
+    // Mark notification as seen
+    const markAsSeen = (username, notificationId) => {
+        setSeenNotifications((prevSeen) => [...prevSeen, { username, id: notificationId }]);
+    };
+
+    // Check if a notification is seen
+    const isNotificationSeen = (username, notificationId) =>
+        seenNotifications.some((notif) => notif.username === username && notif.id === notificationId);
+
     if (loading) return <div className="loading">Loading...</div>;
     if (error) return <div className="error">Error: {error}</div>;
 
@@ -32,9 +42,12 @@ const App = () => {
         <div className="app">
             <h1>Notifications</h1>
             {Object.keys(notificationsData).map((username) => {
-                // Filter out notifications with reason "follow" or "like"
+                // Filter out notifications with reason "follow" or "like" and seen notifications
                 const notifications = (notificationsData[username] || []).filter(
-                    (notification) => notification.reason !== 'follow' && notification.reason !== 'like'
+                    (notification) =>
+                        notification.reason !== 'follow' &&
+                        notification.reason !== 'like' &&
+                        !isNotificationSeen(username, notification.cid)
                 );
 
                 return (
@@ -44,8 +57,8 @@ const App = () => {
                             <p>No relevant notifications</p>
                         ) : (
                             <ul className="notification-list">
-                                {notifications.map((notification, index) => (
-                                    <li key={index} className="notification-item">
+                                {notifications.map((notification) => (
+                                    <li key={notification.cid} className="notification-item">
                                         <div className="notification-author">
                                             <img
                                                 src={notification.author?.avatar || 'placeholder.jpg'}
@@ -65,6 +78,12 @@ const App = () => {
                                             <span className="notification-date">
                                                 {new Date(notification.record?.createdAt).toLocaleString()}
                                             </span>
+                                            <button
+                                                className="mark-as-seen-btn"
+                                                onClick={() => markAsSeen(username, notification.cid)}
+                                            >
+                                                Mark as Seen
+                                            </button>
                                         </div>
                                     </li>
                                 ))}

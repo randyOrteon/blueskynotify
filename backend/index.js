@@ -12,12 +12,13 @@ const BLUESKY_API_BASE = 'https://bsky.social';
 // Hardcoded credentials for multiple users
 const users = [
     {
-        username: "time-magazine.bsky.social",
+        username: "starbuckscoffee.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
         refreshJwt: null, 
-    },{
-        username: "starbuckscoffee.bsky.social",
+    },
+    {
+        username: "time-magazine.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
         refreshJwt: null, 
@@ -59,7 +60,102 @@ const users = [
         password: "parassareen1",
         accessJwt: null, 
         refreshJwt: null, 
-    }
+    },{
+        username: "spotify-music.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "newschannel5.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "fox-17.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "daily-news.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "abc13houston.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "hollywood-reporter.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+    //     username: "apple-services.bsky.social",
+    //     password: "parassareen1",
+    //     accessJwt: null, 
+    //     refreshJwt: null, 
+    // },{
+        username: "nbc-latestnews.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "fed-ex.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "amazon-delivery.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "mcdonaldscorp.bsky.social",
+        password: "parassareen",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "themicrosoft.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "redlobsters.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "unitedparcelservic.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "chipotlegrill.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "newyork-1.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "the-chicagotribune.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "usatodaynews.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "fed-ex.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },
 ];
 
 // Function to get a new session token using username and password
@@ -173,20 +269,3 @@ app.get('/api/notifications', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
