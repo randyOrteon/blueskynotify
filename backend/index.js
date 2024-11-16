@@ -151,11 +151,76 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "fed-ex.bsky.social",
-        password: "parassareen1",
+    //     username: "longjohnsilvers.bsky.social",
+    //     password: "Pye34#434",
+    //     accessJwt: null, 
+    //     refreshJwt: null, 
+    // },{
+        username: "costcocorp.bsky.social",
+        password: "Pye34#434",
         accessJwt: null, 
         refreshJwt: null, 
-    },
+    },{
+        username: "dollargeneral.bsky.social",
+        password: "Pye34#434",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "spacexcorp.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "teslainc.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "temuchina.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "netflixsupport.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "verizonsupport.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "walmartshopping.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "targetsupport.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "losangelestimes.bsky.social",
+        password: "Pye34#434",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "shoprite.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "therealpopefrancis.bsky.social",
+        password: "oute34#434!!",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
+        username: "thenewyorktimes.bsky.social",
+        password: "Pye34#434",
+        accessJwt: null, 
+        refreshJwt: null, 
+    }
 ];
 
 // Function to get a new session token using username and password
