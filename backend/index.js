@@ -45,11 +45,11 @@ const users = [
         password: "parassareen1",
         accessJwt: null, 
         refreshJwt: null, 
-    // },{
-    //     username: "ben-n-jerrys.bsky.social",
-    //     password: "parassareen1",
-    //     accessJwt: null, 
-    //     refreshJwt: null, 
+    },{
+        username: "dallas-cowboys.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
     },{
     //     username: "delta-air-lines.bsky.social",
     //     password: "parassareen1",
