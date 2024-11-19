@@ -45,11 +45,11 @@ const users = [
         password: "parassareen1",
         accessJwt: null, 
         refreshJwt: null, 
-    },{
-        username: "ben-n-jerrys.bsky.social",
-        password: "parassareen1",
-        accessJwt: null, 
-        refreshJwt: null, 
+    // },{
+    //     username: "ben-n-jerrys.bsky.social",
+    //     password: "parassareen1",
+    //     accessJwt: null, 
+    //     refreshJwt: null, 
     },{
     //     username: "delta-air-lines.bsky.social",
     //     password: "parassareen1",
@@ -131,11 +131,11 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "chipotlegrill.bsky.social",
-        password: "parassareen1",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
+    //     username: "chipotlegrill.bsky.social",
+    //     password: "parassareen1",
+    //     accessJwt: null, 
+    //     refreshJwt: null, 
+    // },{
         username: "newyork-1.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
