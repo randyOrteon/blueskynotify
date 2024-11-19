@@ -61,11 +61,11 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-    //     username: "spotify-music.bsky.social",
-    //     password: "parassareen1",
-    //     accessJwt: null, 
-    //     refreshJwt: null, 
-    // },{
+        username: "boston-red-sox.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },{
         username: "newschannel5.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
