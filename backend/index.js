@@ -51,11 +51,11 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "delta-air-lines.bsky.social",
-        password: "parassareen1",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
+    //     username: "delta-air-lines.bsky.social",
+    //     password: "parassareen1",
+    //     accessJwt: null, 
+    //     refreshJwt: null, 
+    // },{
         username: "buzzfeeds-news.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
