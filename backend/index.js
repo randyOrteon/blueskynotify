@@ -169,13 +169,13 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "targetsupport.bsky.social",
-        password: "oute34#434!!",
+        username: "losangelestimes.bsky.social",
+        password: "Pye34#434",
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "losangelestimes.bsky.social",
-        password: "Pye34#434",
+        username: "targetsupport.bsky.social",
+        password: "oute34#434!!",
         accessJwt: null, 
         refreshJwt: null, 
     }
