@@ -69,7 +69,7 @@ const users = [
     //     accessJwt: null, 
     //     refreshJwt: null, 
     // },{
-        username: "nbc-latestnews.bsky.social",
+        username: "nbcnewyork.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
         refreshJwt: null, 
