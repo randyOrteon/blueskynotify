@@ -178,21 +178,6 @@ const users = [
         password: "Pye34#434",
         accessJwt: null, 
         refreshJwt: null, 
-    },{
-        username: "shoprite.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-        username: "therealpopefrancis.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-        username: "thenewyorktimes.bsky.social",
-        password: "Pye34#434",
-        accessJwt: null, 
-        refreshJwt: null, 
     }
 ];
 
