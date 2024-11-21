@@ -159,11 +159,11 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "verizonsupport.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
+    //     username: "verizonsupport.bsky.social",
+    //     password: "oute34#434!!",
+    //     accessJwt: null, 
+    //     refreshJwt: null, 
+    // },{
         username: "walmartshopping.bsky.social",
         password: "oute34#434!!",
         accessJwt: null, 
