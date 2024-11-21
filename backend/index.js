@@ -64,11 +64,7 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-    //     username: "apple-services.bsky.social",
-    //     password: "parassareen1",
-    //     accessJwt: null, 
-    //     refreshJwt: null, 
-    // },{
+
         username: "nbcnewyork.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
@@ -104,11 +100,7 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-    //     username: "chipotlegrill.bsky.social",
-    //     password: "parassareen1",
-    //     accessJwt: null, 
-    //     refreshJwt: null, 
-    // },{
+
         username: "newyork-1.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
@@ -124,58 +116,17 @@ const users = [
         accessJwt: null, 
         refreshJwt: null, 
     },{
-    //     username: "longjohnsilvers.bsky.social",
-    //     password: "Pye34#434",
-    //     accessJwt: null, 
-    //     refreshJwt: null, 
-    // },{
-        username: "costcocorp.bsky.social",
-        password: "Pye34#434",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
+
         username: "dollargeneral.bsky.social",
         password: "Pye34#434",
         accessJwt: null, 
         refreshJwt: null, 
     },{
-        username: "spacexcorp.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-        username: "teslainc.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-        username: "temuchina.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-        username: "netflixsupport.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-    //     username: "verizonsupport.bsky.social",
-    //     password: "oute34#434!!",
-    //     accessJwt: null, 
-    //     refreshJwt: null, 
-    // },{
-        username: "walmartshopping.bsky.social",
-        password: "oute34#434!!",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
+
+
+
         username: "losangelestimes.bsky.social",
         password: "Pye34#434",
-        accessJwt: null, 
-        refreshJwt: null, 
-    },{
-        username: "targetsupport.bsky.social",
-        password: "oute34#434!!",
         accessJwt: null, 
         refreshJwt: null, 
     }
