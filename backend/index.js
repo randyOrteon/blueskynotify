@@ -24,6 +24,12 @@ const users = [
         refreshJwt: null, 
     },
     {
+        username: "deep-mind.bsky.social",
+        password: "parassareen1",
+        accessJwt: null, 
+        refreshJwt: null, 
+    },
+    {
         username: "ben-n-jerrys.bsky.social",
         password: "parassareen1",
         accessJwt: null, 
